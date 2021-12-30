@@ -1,0 +1,19 @@
+{
+  "name": "reactdash",
+  "version": "1.0.0",
+  "description": "React Dashboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanH1025/dashboardUI.git"
+  },
+  "author": "Dano Hailu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanH1025/dashboardUI/issues"
+  },
+  "homepage": "https://github.com/DanH1025/dashboardUI#readme"
+}
