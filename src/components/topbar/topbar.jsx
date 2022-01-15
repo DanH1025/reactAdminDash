@@ -1,6 +1,6 @@
 import React from 'react'
-import '../components/topbar.css'
-import { NotificationsNone, Settings,Logout, AccountCircle } from '@mui/icons-material'
+import './topbar.css'
+import { Settings,Logout, AccountCircle } from '@mui/icons-material'
 
 export default function Topbar(){
     return (

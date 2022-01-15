@@ -1,0 +1,17 @@
+.tableView{
+    flex: 4;
+}
+.userListEdit{
+    border: none;
+    border-radius: 15px;
+    background-color: lightblue;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-right: 20px;
+}
+.userListDelete{
+    cursor: pointer;
+    color: red;
+}
