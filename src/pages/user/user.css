@@ -1,0 +1,107 @@
+.user{
+    flex: 4;
+    padding: 20px;
+}
+.userTitleContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.userAddButton{
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(45, 179, 28);
+    cursor: pointer;
+    color: white;
+}
+
+.userContainer{
+    display: flex;
+    margin-top: 10px;
+
+}
+.userShow{
+    flex: 1;
+    padding: 20px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.18);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.18);
+}
+.userUpdate{
+    flex: 2;
+    padding: 20px;
+    margin-left: 15px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.18);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.18);
+
+}
+
+.userShowTop{
+    display: flex;
+    align-items: center;
+
+}
+.userShowTopImg{
+   margin-right: 10px;
+}
+.userShowTopTitle{
+    display: flex;
+    flex-direction: column;
+}
+.userShowTopUsername{
+    font-weight: 600;
+    font-size: 14px;
+}
+.userShowTopUserTitle{
+    font-weight: lighter;
+    font-size: 12px;
+}
+.userUpdateTitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+.userUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.userUpdateItem>label{
+    font-size: 10px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+.userUpdateInput{
+    border: none;
+    border-bottom: 1px black solid;
+    width: 100%;
+}
+.userUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.userUpdateRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.userUpdateUpload{
+    display: flex;
+    align-items: center;
+}
+.userUpdateUploadBtn{
+    cursor: pointer;
+}
+.userUpdateButton{
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}

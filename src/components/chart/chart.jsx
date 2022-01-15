@@ -15,7 +15,7 @@ export default function Charts({title,data,dataKey,grid}) {
                     <XAxis dataKey="month" stroke='green'/>
                     <Line type="monotone" dataKey={dataKey}  stroke='green'/>
                     <Tooltip/>
-                    {grid && <CartesianGrid stroke='lightgray' strokeDasharray={5 ,5}/>}
+                    {grid && <CartesianGrid stroke='lightgray' strokeDasharray={5, 5}/>}
                     <Legend/>
                 </LineChart>
             </ResponsiveContainer>

@@ -1,5 +1,8 @@
 import "./sidebar.css"
-import {Home, Groups , Insights,Assessment, TableChart , StackedBarChart, PieChart} from "@mui/icons-material"
+import {Home,Assessment, TableChart , StackedBarChart, PieChart} from "@mui/icons-material"
+
+import {Link } from 'react-router-dom'
+
 
 export default function Sidebar(){
     return (
@@ -8,10 +11,13 @@ export default function Sidebar(){
                <div className="sidebarMenu">
                    <h3 className="sidebarTitle">General</h3>
                    <ul className="sidebarList">
-                       <li className="sidebarListItem active">
-                           <Home className="sidebarIcon" />
-                           Home
-                       </li>                       
+                       <Link to={'/'} className="sidebarListLink">
+                        <li className="sidebarListItem active">
+                            <Home className="sidebarIcon" />
+                             Home
+                        </li>
+                       </Link>
+                                              
                        <li className="sidebarListItem">
                            <Assessment className="sidebarIcon" />
                            Report
@@ -21,10 +27,13 @@ export default function Sidebar(){
                <div className="sidebarMenu">
                    <h3 className="sidebarTitle">Data View</h3>
                    <ul className="sidebarList">
-                       <li className="sidebarListItem ">
-                           <TableChart className="sidebarIcon" />
-                           Tables
-                       </li>
+                       <Link to={'/tables'} className="sidebarListLink" >
+                        <li className="sidebarListItem">
+                            <TableChart className="sidebarIcon" />
+                            Tables
+                        </li>
+                       </Link>
+                       
                        <li className="sidebarListItem">
                            <StackedBarChart className="sidebarIcon" />
                            BarChart

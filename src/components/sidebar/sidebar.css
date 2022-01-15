@@ -20,6 +20,11 @@
 .sidebarList{
     list-style: none;
     padding: 5px;
+    
+}
+.sidebarListLink{
+    text-decoration: none;
+    color: #555;
 }
 .sidebarListItem{
     padding: 5px;
@@ -31,6 +36,7 @@
 }
 .sidebarListItem.active, .sidebarListItem:hover{
     background-color: #e9ebe5;
+    
     
 }
 .sidebarIcon{
